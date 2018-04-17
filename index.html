@@ -20,7 +20,6 @@ All I have to do is use box-shadow css thing)
   <meta charset="utf-8">
   <title>pineappledreams</title>
   <meta name="author" content="Erik Loide">
-
 <script src="scrollreveal.min.js"></script>
 <script src="js/fittext/fittext.js"></script>
 
@@ -37,11 +36,24 @@ body {
 }
 
 h1 {
+  text-align: center;
   color: #48260D;
+}
+
+h2 {
+  text-align: center;
+}
+
+.center-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 p {
   color: #48260D;
+  font-size: 5vh;
 }
 
 .titlebox {
@@ -50,7 +62,7 @@ p {
     padding: 10px;
     background-color: #FEE12B;
     box-shadow: 5px 10px #48260D;
-    height: 100vh;
+    height: 80vh;
 }
 
 </style>
@@ -60,34 +72,36 @@ p {
 
 <!-- First page should be just the title box with a drop shadow -->
 <div class="titlebox">
-<h1 id="titlebox-h1">pineappledreams</h1>
-<p id="titlebox-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-   Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-   Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-   Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+  <h1 style="font-size: 10vh">pineappledreams</h1>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitiqua.
+   Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut </p>
 
-<script>
-sr.reveal('.titlebox', { duration: 1000 });
-</script>
+   <script>
+   sr.reveal('.titlebox', { duration: 1000 });
+ </script>
 </div>
+
 <script type="text/javascript">
   fitText(document.getElementById('titlebox-h1'), 0.95)
-  fitText(document.getElementById('titlebox-p'), 3)
 </script>
 
 
 
 
 <!-- Second page is a mission statement page -->
-<div id="page2">
-<h2>Projects</h2>
-<p>Just a placeholder text. Add flexbox here?</p>
+<div id="page2" style="height: 100vh">
+  <h2>Project photos</h2>
+
+  <div class="center-image">
+    <img src="photos/1.jpg" style="width: 50vw">
+  </div>
+<p style="text-align: center">FEELS</p>
+
 </div>
 
 <script>
 sr.reveal('#page2', { duration: 500 });
 </script>
-</div>
 
 <!-- Third page will be showcase -->
 
