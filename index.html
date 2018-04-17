@@ -7,8 +7,10 @@ a bit of a tropical twist. Make it my little statement.
 
 TO DO.
 
-1. How to make the drop shadow thing.
+1. How to make the drop shadow thing.  (DONE!
+All I have to do is use box-shadow css thing)
 2. How to make seamless scrolling to other pages
+(TBA)
 
 -->
 
@@ -30,6 +32,7 @@ TO DO.
 .sr .titlebox { visibility: hidden; }
 
 h1 {
+  font-size: 2vw;
   color: #48260D;
 }
 
@@ -38,6 +41,7 @@ h1 {
     padding: 10px;
     background-color: #FEE12B;
     box-shadow: 5px 10px #48260D;
+    height: 100vh;
 }
 
 </style>
@@ -65,6 +69,11 @@ sr.reveal('.titlebox', { duration: 1000 });
 <div id="page2">
 <h2>Mission</h2>
 <p>Lorem ipsum</p>
+</div>
+
+<script>
+sr.reveal('#page2', { duration: 500 });
+</script>
 </div>
 
 <!-- Third page will be showcase -->
