@@ -44,25 +44,30 @@ h2 {
   text-align: center;
 }
 
-.center-image {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-
 p {
   color: #48260D;
-  font-size: 5vh;
+  padding: 5px;
+  font-size: 55px;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .titlebox {
-    margin: 5% 20% 5% 20%;
+    margin: 0 auto;
+    width: 40em;
+    max-width: 100%;
     border: 1px solid;
     padding: 10px;
     background-color: #FEE12B;
     box-shadow: 5px 10px #48260D;
     height: 80vh;
+}
+
+.center-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 </style>
@@ -72,19 +77,21 @@ p {
 
 <!-- First page should be just the title box with a drop shadow -->
 <div class="titlebox">
-  <h1 style="font-size: 10vh">pineappledreams</h1>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitiqua.
+  <h1 id="titlebox-h1">pineappledreams</h1>
+  <p id="titlebox-p">Lorem ipsum dolor sit amet, consectetur adipiscing elitiqua.
    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut </p>
-
-   <script>
-   sr.reveal('.titlebox', { duration: 1000 });
- </script>
 </div>
+
+<script>
+sr.reveal('.titlebox', { duration: 1000 });
+</script>
 
 <script type="text/javascript">
   fitText(document.getElementById('titlebox-h1'), 0.95)
 </script>
-
+<script type="text/javascript">
+  fitText(document.getElementById('titlebox-p'), 2)
+</script>
 
 
 
