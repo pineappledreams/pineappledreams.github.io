@@ -48,3 +48,6 @@ outside the school halls, then it's just perfect.
 As I am plowing through my studies, I will try to keep the notes up on Github
 so can study with me and see if this MOOC thing is really for you or not.
 Hell, I don't even know if it's for me either, but let's just go ahead and do it.
+Later on these files will be put together on my front page and given forward in
+the blog format. Until now, you will have to find these files somewhere else
+as .md files. Oh well!

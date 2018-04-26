@@ -1,0 +1,13 @@
+---
+layout: "post"
+title: "CS50 Week 0"
+date: "2018-04-23 09:48"
+---
+
+Problem set 0 is about
+1. Making a video to say hi (Optional)
+2. Use scratch to program a little thing that uses 3 scripts and 2 items,
+3. Upload the said file to github (really important!)
+4. Fill out a form. End of Week 0!
+
+I think I can definitely do Scratch tomorrow. It uses flash, but I gotta do it.
