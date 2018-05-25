@@ -17,3 +17,7 @@ Well, my memory IS getting better though now that I started being more mindful a
 There's a lot of things that could go better, but I think one thing would be reading up in the latest trends as there's loads of things to know about in the IT and start-up community.
 
 Also I wrote my CV all over, this time it doesn't look like I'm trying too hard. It looks like a still lake now, without any pain and suffering. Maybe that's why things are going better these days? More tranquil mind, more focus... It's one of those good weeks of my life then!
+
+EDIT 05/25
+
+And like always, I count my chicken before they hatch. But if you look the big picture, I:m doing all right!
