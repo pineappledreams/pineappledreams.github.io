@@ -1,7 +1,7 @@
 ---
 layout: "post"
-title: "I am going back to school - CS50"
-date: "2018-04-23 08:45"
+title: "A month of MOOCs"
+date: "2018-05-23 08:45"
 ---
 
 I got some good news fellas. I have been doing MOOCs for about 30 days now. And now the big question is - how has my life changed to the better or worse?
