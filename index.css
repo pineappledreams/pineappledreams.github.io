@@ -1,0 +1,53 @@
+.sr .titlebox {
+    visibility: hidden;
+}
+
+body {
+    font-size: 100%;
+    background-color: #D0F0C0;
+}
+
+h1 {
+    text-align: center;
+    color: #48260D;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    color: #48260D;
+    padding: 5px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.flex-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titlebox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 40em;
+    max-width: 100%;
+    border: 1px solid;
+    padding: 10px;
+    background-color: #FEE12B;
+    box-shadow: 5px 10px #48260D;
+    height: 80vh;
+}
+
+.center-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}

@@ -1,18 +1,4 @@
-<!--- For real guys I gotta say a few things before we make this
-webpage happen.
 
-I am aiming for a webpage that would be FAST and RESPONSIVE.
-It should be a bit of neo-futuristic approach to the thing with
-a bit of a tropical twist. Make it my little statement.
-
-TO DO.
-
-1. How to make the drop shadow thing.  (DONE!
-All I have to do is use box-shadow css thing)
-2. How to make seamless scrolling to other pages
-(TBA)
-
--->
 
 <!DOCTYPE html>
 <html>
@@ -20,6 +6,9 @@ All I have to do is use box-shadow css thing)
   <meta charset="utf-8">
   <title>pineappledreams</title>
   <meta name="author" content="Erik Loide">
+
+<link rel="stylesheet" type="text/css" href="index.css">
+
 <script src="scrollreveal.min.js"></script>
 <script src="js/fittext/fittext.js"></script>
 
@@ -27,61 +16,6 @@ All I have to do is use box-shadow css thing)
   window.sr = ScrollReveal({ reset: true });
 </script>
 
-<style>
-
-.sr .titlebox { visibility: hidden; }
-
-body {
-  font-size: 100%;
-  background-color: #D0F0C0;
-}
-
-h1 {
-  text-align: center;
-  color: #48260D;
-}
-
-h2 {
-  text-align: center;
-}
-
-p {
-  color: #48260D;
-  padding: 5px;
-  max-width: 100%;
-  max-height: 100%;
-}
-
-.flex-box {
-display: flex;
-justify-content: center;
-align-items: center;
-flex-direction: column;
-}
-
-.titlebox {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 0 auto;
-    width: 40em;
-    max-width: 100%;
-    border: 1px solid;
-    padding: 10px;
-    background-color: #FEE12B;
-    box-shadow: 5px 10px #48260D;
-    height: 80vh;
-}
-
-.center-image {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-
-</style>
 </head>
 
 <body>
@@ -90,7 +24,7 @@ flex-direction: column;
 <div class="titlebox">
   <h1>pineappledreams</h1>
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitiqua.
-   Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut </p>
+  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut </p>
 </div>
 
 <script>
@@ -100,13 +34,10 @@ sr.reveal('.titlebox', { duration: 1000 });
 
 
 <!-- Second page is a mission statement page -->
-<div id="page2" style="height: 100vh">
-  <h2>Project photos</h2>
+<div id="page2" style="height: 100vh;">
+  <h2>I got the product just for you.</h2>
 
-  <div class="center-image">
-    <img src="photos/1.jpg" style="width: 50vw">
-  </div>
-<p style="text-align: center">FEELS</p>
+<p style="text-align: center">FEELS!</p>
 
 </div>
 

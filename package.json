@@ -1,0 +1,10 @@
+{
+  "name": "pineappledreams.github.io",
+  "version": "1.0.0",
+  "description": "Developer page for Erik L.",
+  "main": "index.js",
+  "repository": "https://github.com/pineappledreams/pineappledreams.github.io",
+  "author": "pineappledreams <loide.erik@gmail.com>",
+  "license": "MIT",
+  "dependencies": {}
+}
