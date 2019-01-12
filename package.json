@@ -6,5 +6,8 @@
   "repository": "https://github.com/pineappledreams/pineappledreams.github.io",
   "author": "pineappledreams <loide.erik@gmail.com>",
   "license": "MIT",
-  "dependencies": {}
+  "dependencies": {
+    "hammerjs": "^2.0.8",
+    "muuri": "^0.7.1"
+  }
 }

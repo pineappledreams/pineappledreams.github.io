@@ -1,57 +1,64 @@
-
-
 <!DOCTYPE html>
 <html>
+
 <head>
-  <meta charset="utf-8">
-  <title>pineappledreams</title>
-  <meta name="author" content="Erik Loide">
+    <meta charset="utf-8">
+    <title>pineappledreams</title>
+    <meta name="author" content="Erik Loide">
 
-<link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
 
-<script src="scrollreveal.min.js"></script>
-<script src="js/fittext/fittext.js"></script>
-
-<script>
-  window.sr = ScrollReveal({ reset: true });
-</script>
+    <script src="/js/web-animations.min.js"></script>
+    <script src="/js/hammer.min.js"></script>
+    <script src="/js/muuri.js"></script>
 
 </head>
 
 <body>
 
-<!-- First page should be just the title box with a drop shadow -->
-<div class="titlebox">
-  <h1>pineappledreams</h1>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitiqua.
-  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut </p>
-</div>
+    <!-- First page should be just the title box with a drop shadow -->
+    <div class="titlebox">
+        <h1>pineappledreams</h1>
+        <p>You are on my webpage. Please proceed to see what things I am making these days</p>
+    </div>
 
-<script>
-sr.reveal('.titlebox', { duration: 1000 });
-</script>
+    <div id="page2" style="height: 100vh;">
+        <h2>I got the product just for you.</h2>
 
+        <p style="text-align: center">This is for making boxes change colors, man!
+            <br> you can even change the freakin order of the items! How cool is that!
+            <br> It loads up a JSON file and then changes the order of the items as you drag and drop that.</p>
+        <div id="dragdrop">
 
+            <div class="grid">
 
-<!-- Second page is a mission statement page -->
-<div id="page2" style="height: 100vh;">
-  <h2>I got the product just for you.</h2>
+                <div class="item">
+                    <div class="item-content">
+                        <!-- Safe zone, enter your custom markup -->
+                        This can be anything.
+                        <!-- Safe zone ends -->
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-content">
+                        <!-- Safe zone, enter your custom markup -->
+                        <div class="my-custom-content">
+                            Yippee!
+                        </div>
+                        <!-- Safe zone ends -->
+                    </div>
+                    <script>
+                        var grid = new Muuri('.grid', {
+                            dragEnabled: true
+                        });
+                    </script>
+                </div>
 
-<p style="text-align: center">FEELS!</p>
-
-</div>
-
-<script>
-sr.reveal('#page2', { duration: 500 });
-</script>
-
-<!-- Third page will be showcase -->
-
-
-
-<!-- Fourth page contacts etc. -->
-
-
+            </div>
+        </div>
+        <!-- Third page will be showcase -->
+        <!-- Fourth page contacts etc. -->
 
 </body>
+
 </html>
