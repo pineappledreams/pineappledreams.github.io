@@ -6,5 +6,7 @@
   "repository": "https://github.com/pineappledreams/pineappledreams.github.io",
   "author": "pineappledreams <loide.erik@gmail.com>",
   "license": "MIT",
-  "dependencies": {}
+  "dependencies": {
+    "fomantic-ui": "^2.7.2"
+  }
 }
