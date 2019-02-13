@@ -5,12 +5,10 @@
 
     <link rel="stylesheet" type="text/css" href="/semantic/dist/semantic.min.css">
     <script src="/semantic/dist/semantic.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
-        crossorigin="anonymous"></script>
+    <script src="/resources/jquery-3.3.1.slim.min.js"></script>
+    <script src="/resources/popper.min.js"></script>
     <meta charset="utf-8">
-    <title>pineappledreams</title>
+    <title>Erik Loide Resume</title>
     <meta name="author" content="Erik Loide">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -18,23 +16,69 @@
 
 <body>
 
-    <div class="ui message" style="margin: 1em">
-        <div class="ui container centered stackable two column grid">
-            <div class="eight wide column">
-                <h1 class="ui huge header" style="font-size: 3.8rem; word-spacing: 8px;">Erik Loide</h1>
-                <h2 style="font-size: 1.7rem; margin-top: 10px;">The developer page and resume for Erik Loide</p>
-                    <div class="ui container">
-                        <a href="http://www.github.com/pineappledreams/" title="github: pineappledreams"><i class="big github icon"></i></a>
-                        <a href="mailto:loide.erik@gmail.com" title="email: loide.erik@gmail.com"><i class="big at icon"></i></a>
-                        <a href="https://www.linkedin.com/in/erik-loide/" title:"Erik Loide in linkedin"><i class="big linkedin icon"></i></a>
-                    </div>
-            </div>
-            <div class="four wide column">
-                <img class="ui big fluid image" src="/images/test2.jpg" class="img-fluid" alt="a gif">
+    <!-- Header -->
+    <div class="ui container centered">
+        <div class="ui message" style="margin: 1em">
+            <div class="ui container centered stackable two column grid">
+                <div class="eight wide column">
+                    <h1 class="ui huge header" style="font-size: 3.8rem; word-spacing: 8px;">Erik Loide</h1>
+                    <h2 style="font-size: 1.7rem; margin-top: 10px;">The developer page and resume for Erik Loide</p>
+                        <div class="ui container">
+                            <a href="http://www.github.com/pineappledreams/" title="github: pineappledreams"><i class="big github icon"></i></a>
+                            <a href="mailto:loide.erik@gmail.com" title="email: loide.erik@gmail.com"><i class="big at icon"></i></a>
+                            <a href="https://www.linkedin.com/in/erik-loide/" title:"Erik Loide in linkedin"><i class="big linkedin icon"></i></a>
+                        </div>
+                </div>
+                <div class="four wide column">
+                    <img class="ui big fluid image" src="/images/test2.jpg" class="img-fluid" alt="a gif">
+                </div>
             </div>
         </div>
-    </div>
-    <div>
+
+        <!-- About section-->
+
+        <h2 class="ui big header">About</h2>
+        <p> I am absolutely mad about IT. </br>
+            My true passion is in hard data and numbers </br>
+            and making people know how they can make their lives better. </br>
+        </p>
+
+        <!-- Skills! -->
+
+        <h2 class="ui big header">Skills</h2>
+
+        <div class="ui three column grid container stackable">
+            <div class="column">
+                <h3 class="ui dividing header">Front-end</h3>
+                <div class="ui list">
+                    <div class="item">Javascript</div>
+                    <div class="item">Vue.js</div>
+                    <div class="item">CSS</div>
+                    <div class="item">Semantic-UI</div>
+                    <div class="item">HTML</div>
+                </div>
+            </div>
+            <div class="column">
+                <h3 class="ui dividing header">Back-end</h3>
+                <div class="ui list">
+                    <div class="item">Node.js</div>
+                    <div class="item">Wordpress</div>
+                    <div class="item">Python</div>
+                    <div class="item">Linux</div>
+                </div>
+            </div>
+            <div class="column">
+                <h3 class="ui dividing header">Databases</h3>
+                <div class="ui list">
+                    <div class="item">MySQL</div>
+                    <div class="item">MongoDB</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Resume-->
+
+        <h2 class="ui big header"> Work Experience </h3>
         <div class="ui two column grid container stackable">
             <div class="column">
                 <div class="ui list">
@@ -135,6 +179,9 @@
             </div>
         </div>
     </div>
+
+    <!-- Footer -->
+
     <div class="ui inverted vertical footer segment">
         <div class="ui container">
             <div class="ui stackable inverted divided equal height stackable centered grid">
@@ -142,24 +189,25 @@
                 </div>
                 <div class="three wide column">
                     <h4 class="ui inverted header">Contact information</h4>
-                            <div class="ui link inverted list">
-                                <a class="item" href="http://www.github.com/pineappledreams/" title="github: pineappledreams"><i
-                                            class="github icon"></i>
-                                        <div class="content">
-                                            <div class="header">Github</div>
-                                        </div>
-                                    </a>
-                                <a class="item" href="mailto:loide.erik@gmail.com" title="email: loide.erik@gmail.com"><i class="at icon"></i>
-                                        <div class="content">
-                                            <div class="header">E-mail</div>
-                                        </div>
-                                    </a>
-                                <a class="item" href="https://www.linkedin.com/in/erik-loide/" title="Erik Loide in linkedin"><i class="linkedin icon"></i>
-                                        <div class="content">
-                                            <div class="header">Linkedin</div>
-                                        </div>
-                                    </a>
+                    <div class="ui link inverted list">
+                        <a class="item" href="http://www.github.com/pineappledreams/" title="github: pineappledreams"><i
+                                class="github icon"></i>
+                            <div class="content">
+                                <div class="header">Github</div>
                             </div>
+                        </a>
+                        <a class="item" href="mailto:loide.erik@gmail.com" title="email: loide.erik@gmail.com"><i class="at icon"></i>
+                            <div class="content">
+                                <div class="header">E-mail</div>
+                            </div>
+                        </a>
+                        <a class="item" href="https://www.linkedin.com/in/erik-loide/" title="Erik Loide in linkedin"><i
+                                class="linkedin icon"></i>
+                            <div class="content">
+                                <div class="header">Linkedin</div>
+                            </div>
+                        </a>
+                    </div>
                 </div>
                 <div class="seven wide column">
                     <h4 class="ui inverted header"> Looking for more?</h4>
@@ -167,7 +215,6 @@
                 </div>
             </div>
         </div>
-    </div>
     </div>
     <!-- What we want from here is that 
 1. my CV  THAT'S DONE!!!!!!!!!!!!!!!!!!!
